@@ -6,7 +6,7 @@ return array(
     'DB_USER' => 'root',
     'DB_PWD' => 'root',
     'DB_PORT' => 3306,
-    'DB_NAME' => 'new_cms',
+    'DB_NAME' => 'imooc_singcms',
     'DB_CHARSET' => 'utf8',
     'DB_PREFIX' =>'cms_',
 );

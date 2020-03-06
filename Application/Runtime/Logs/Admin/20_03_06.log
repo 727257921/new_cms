@@ -734,3 +734,255 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000585s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000602s ]
 
+[ 2020-03-06T11:39:47+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\NewsModel.class.php 第 9 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'new_cms'
+
+[ 2020-03-06T11:40:01+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000403s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000414s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\NewsModel.class.php 第 9 行.
+ERR: SQLSTATE[HY000] [1049] Unknown database 'sing_cms'
+
+[ 2020-03-06T11:40:18+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0081s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\PositionModel.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0048s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` WHERE `status` = 1 AND `lastlogintime` > 1583424000 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'tp_count' D:\phpstudy_pro\WWW\singcms\Application\Common\Model\AdminModel.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011641s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2020-03-06T11:41:10+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\PositionModel.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0041s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0066s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` WHERE `status` = 1 AND `lastlogintime` > 1583424000 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'tp_count' D:\phpstudy_pro\WWW\singcms\Application\Common\Model\AdminModel.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009241s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009254s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000562s ]
+
+[ 2020-03-06T11:41:12+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000382s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\PositionModel.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0036s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0187s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` WHERE `status` = 1 AND `lastlogintime` > 1583424000 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'tp_count' D:\phpstudy_pro\WWW\singcms\Application\Common\Model\AdminModel.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010435s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010449s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000457s ]
+
+[ 2020-03-06T11:41:50+08:00 ] 127.0.0.1 /admin.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` = 1 ORDER BY count desc LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\PositionModel.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0038s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_position` WHERE `status` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cms_admin` [ RunTime:0.0037s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_admin` WHERE `status` = 1 AND `lastlogintime` > 1583424000 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'tp_count' D:\phpstudy_pro\WWW\singcms\Application\Common\Model\AdminModel.class.php 第 75 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2020-03-06T11:41:52+08:00 ] 127.0.0.1 /admin.php?c=position
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000654s ]
+NOTIC: [2] Declaration of Admin\Controller\PositionController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) D:\phpstudy_pro\WWW\singcms\Application\Admin\Controller\PositionController.class.php 第 7 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\PositionModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` <> -1 ORDER BY id  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000022s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000037s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011465s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2020-03-06T11:41:53+08:00 ] 127.0.0.1 /admin.php?c=content
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000431s ]
+NOTIC: [2] Declaration of Admin\Controller\ContentController::setStatus() should be compatible with Admin\Controller\CommonController::setStatus($data, $models) D:\phpstudy_pro\WWW\singcms\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [2] Declaration of Admin\Controller\ContentController::listorder() should be compatible with Admin\Controller\CommonController::listorder($model = '') D:\phpstudy_pro\WWW\singcms\Application\Admin\Controller\ContentController.class.php 第 12 行.
+NOTIC: [8] Undefined index: title D:\phpstudy_pro\WWW\singcms\Application\Admin\Controller\ContentController.class.php 第 16 行.
+NOTIC: [8] Undefined index: catid D:\phpstudy_pro\WWW\singcms\Application\Admin\Controller\ContentController.class.php 第 20 行.
+NOTIC: [8] Undefined index: p D:\phpstudy_pro\WWW\singcms\Application\Admin\Controller\ContentController.class.php 第 24 行.
+NOTIC: [2] Declaration of Common\Model\NewsModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\NewsModel.class.php 第 9 行.
+SQL: SHOW COLUMNS FROM `cms_news` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `cms_news` WHERE `status` <> -1 ORDER BY listorder desc ,news_id desc LIMIT 0,10   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cms_news` WHERE `status` <> -1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: sing_path D:\phpstudy_pro\WWW\singcms\ThinkPHP\Common\functions.php 第 991 行.
+NOTIC: [2] Declaration of Common\Model\PositionModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\PositionModel.class.php 第 81 行.
+SQL: SHOW COLUMNS FROM `cms_position` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `cms_position` WHERE `status` = 1 ORDER BY id  [ RunTime:0.0002s ]
+NOTIC: [2] Declaration of Common\Model\MenuModel::find($id) should be compatible with Think\Model::find($options = Array) D:\phpstudy_pro\WWW\singcms\Application\Common\Model\MenuModel.class.php 第 92 行.
+SQL: SHOW COLUMNS FROM `cms_menu` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` = 1 AND `type` = 0 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+SQL: SELECT * FROM `cms_menu` WHERE `status` <> -1 AND `type` = 1 ORDER BY listorder desc,menu_id desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+NOTIC: [8] Undefined index: a D:\phpstudy_pro\WWW\singcms\Application\Common\Common\function.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
